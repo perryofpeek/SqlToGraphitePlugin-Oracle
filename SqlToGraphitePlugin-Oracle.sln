@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E39C8443-6F3A-49E7-BEE4-99F8701BDBC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1970C3EB-DC08-4932-B55A-B83E6BB7D03E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0464EEC4-2F66-4E61-B2C3-9317DCC61F78}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build.cmd = build.cmd
+		default.ps1 = default.ps1
+		README.md = README.md
+		SqlToGraphitePlugin-Oracle.nuspec = SqlToGraphitePlugin-Oracle.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlToGraphite.Plugin.Oracle", "src\SqlToGraphite.Plugin.Oracle\SqlToGraphite.Plugin.Oracle.csproj", "{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlToGraphite.Plugin.Oracle.UnitTests", "test\SqlToGraphite.Plugin.Oracle.UnitTests\SqlToGraphite.Plugin.Oracle.UnitTests.csproj", "{17AA7F56-90A5-4B56-A1DE-30CE837B6629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Debug|x86.ActiveCfg = Debug|x86
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Debug|x86.Build.0 = Debug|x86
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Release|x86.ActiveCfg = Release|x86
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE}.Release|x86.Build.0 = Release|x86
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Debug|x86.ActiveCfg = Debug|x86
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Debug|x86.Build.0 = Debug|x86
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Release|x86.ActiveCfg = Release|x86
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22C76B9E-DA37-4DF9-9A02-F4F1636AEDDE} = {E39C8443-6F3A-49E7-BEE4-99F8701BDBC6}
+		{17AA7F56-90A5-4B56-A1DE-30CE837B6629} = {1970C3EB-DC08-4932-B55A-B83E6BB7D03E}
+	EndGlobalSection
+EndGlobal

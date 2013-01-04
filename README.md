@@ -1,4 +1,4 @@
-SqlToGraphitePlugin-Oracle
-==========================
+SqlToGraphitePlugin-HttpPing
+============================
 
-SqlToGraphite Oracle Plugin 
+Simple SqlToGraphitePlugin that times a http request
